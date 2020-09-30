@@ -1,0 +1,65 @@
+/* CSS RESET */
+* {
+  margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+
+/* ESTILO GERAL */
+body {
+  background-color: #95F2D9;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #000;
+}
+
+#titulo {
+  font-size: 3em;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+#nome {
+  display: inline-block;
+}
+
+.respostas-titulo {
+  text-align: center;
+  margin: 2em 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.secao-respostas {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #000;
+  margin: 1.5em;
+  padding: 2em;
+}
+
+.titulo-respostas {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#resposta-correta-1,
+#resposta-correta-2,
+#resposta-correta-3 {
+  color: green;
+  text-align: center;
+}
+
+#resposta-errada-1,
+#resposta-errada-2,
+#resposta-errada-3 {
+  color: red;
+  text-align: center;
+}
